@@ -1,6 +1,6 @@
-import './App.css'
+import './index.css'
 
-function App() {
+function Exemplo02() {
   return (
     <div className='container'>
       <p>Teste</p>
@@ -19,4 +19,4 @@ function App() {
   )
 }
 
-export default App
+export default Exemplo02;
