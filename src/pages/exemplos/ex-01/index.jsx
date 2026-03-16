@@ -7,6 +7,7 @@ function Exemplo01() {
     )
 }
 
+export default Exemplo01;
 
 
 
