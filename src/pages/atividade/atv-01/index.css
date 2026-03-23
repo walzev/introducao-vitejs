@@ -1,0 +1,18 @@
+.titatv {
+    font-size:100px;
+    font-style: oblique;
+    color: chartreuse;
+    font-display: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #0000ff; 
+    /* width: 100%;  */
+    max-width: 1440px;
+}
