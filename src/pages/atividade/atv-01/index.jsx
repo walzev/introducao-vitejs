@@ -1,24 +1,12 @@
 import styles from './index.module.css'
 
-function Exemplo01() {
+function Atividade01() {
     return (
         <>
-        <h1 className='titatv'>Atividade 01</h1>
-        <p>Componente basico para renderizar tela com react</p>
-
-        <div className='styles.container'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum corrupti iure dignissimos qui pariatur repellat laboriosam dolores voluptates rem? Tempore delectus voluptas aut beatae corrupti corporis perspiciatis? A, animi dolorem.
-        </div>
+            <h1 className={styles.atv}>Atividade 1</h1>
+            <p className={styles.p_atv}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae nisi voluptatem exercitationem autem eveniet laborum consectetur esse earum quidem quas. Minima est beatae, dicta perferendis cumque nihil deserunt animi facere!</p>
         </>
-    )
+    )   
 }
 
-export default Exemplo01;
-
-
-
-
-
-
-
-
+export default Atividade01;

@@ -1,18 +1,13 @@
-.titatv {
-    font-size:100px;
-    font-style: oblique;
-    color: chartreuse;
-    font-display: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
+.atv{
+    color: blue;
+    margin-bottom: 20rem;
 }
 
-.container{
+.p_atv{
     display: flex;
-    flex: 1;
-    flex-direction: column;
     align-items: center;
-    border: 5px solid #0000ff; 
-    /* width: 100%;  */
-    max-width: 1440px;
+    justify-content: center;
+    /* border: 1px solid black; */
+    padding: 20rem 5rem;
+    font-size: 2rem;
 }
