@@ -21,6 +21,7 @@ function Home() {
                 <h2>Atividades</h2>
                 <Link to="/atividade/1">Atividade 01-  Componente Basico</Link>
                 <Link to="/atividade/2">Atividade 02-  contador com dois buttons</Link>
+                <Link to="/atividade/3">Atividade 03-  Uso de componentes</Link>
             </div>
         </div>
     )
