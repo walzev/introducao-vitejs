@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import Botao from './botao';
 
-import styles from './index.module.css';
+import styles from './botao/index.module.css';
 
 function Exemplo04() {
     // O hook useState gerencia o valor do contador

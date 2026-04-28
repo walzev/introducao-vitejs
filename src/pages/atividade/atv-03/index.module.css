@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif; /* Serifado como na imagem */
+}
+
+.containerBotoes {
+    display: flex;
+    gap: 12px;
+}
+
+
+.botao {
+    padding: 12px 24px;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.1s;
+}
+
+.botao:active {
+    transform: scale(0.95);
+}
+
+
+.btnVerde {
+    background-color: #228B22;
+}
+
+.btnAzul {
+    background-color: #00BFFF;
+}
+
+.btnLaranja {
+    background-color: #FF8C00;
+}
+
+.btnVermelho {
+    background-color: #DC143C;
+}
+
+.btnCinza {
+    background-color: #696969;
+}
